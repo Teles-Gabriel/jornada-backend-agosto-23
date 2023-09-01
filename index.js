@@ -18,8 +18,8 @@ async function main() {
   const collection = db.collection("herois");
 
   const app = express();
-
-  app.use(cors());
+  // checar depois o cors
+  // app.use(cors());
 
   // Habilitamos o processamento de JSON
   app.use(express.json());
